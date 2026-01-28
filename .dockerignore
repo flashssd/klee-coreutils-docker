@@ -1,0 +1,10 @@
+coreutils/
+results/
+*.ktest
+*.gcda
+*.gcno
+*.gcov
+__pycache__/
+*.pyc
+.git/
+.gitignore

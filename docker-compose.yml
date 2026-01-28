@@ -1,0 +1,16 @@
+services:
+  klee-coreutils:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: klee-coreutils:latest
+    container_name: klee-coreutils
+    volumes:
+      - ./coreutils:/workspace/coreutils
+      - ./results:/workspace/results
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    environment:
+      - LLVM_COMPILER=clang
+    command: /bin/bash
