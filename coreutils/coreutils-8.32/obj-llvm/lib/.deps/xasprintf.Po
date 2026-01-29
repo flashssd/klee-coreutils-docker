@@ -1,0 +1,8 @@
+lib/xasprintf.o: ../lib/xasprintf.c lib/config.h ../lib/xvasprintf.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stdarg.h
+
+lib/config.h:
+
+../lib/xvasprintf.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.6/include/stdarg.h:

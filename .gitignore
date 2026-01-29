@@ -17,8 +17,11 @@ venv/
 env/
 *.egg-info/
 
-# Results and generated files
-results/
+# Results and generated files (allow results/klee-result for KLEE coverage)
+# Use results/* so Git traverses into results/ and negation can apply
+results/*
+!results/klee-result/
+!results/klee-result/**
 
 # IDE
 .vscode/

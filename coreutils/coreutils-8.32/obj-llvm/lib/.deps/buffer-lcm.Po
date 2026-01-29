@@ -1,0 +1,11 @@
+lib/buffer-lcm.o: ../lib/buffer-lcm.c lib/config.h ../lib/buffer-lcm.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/__stddef_max_align_t.h
+
+lib/config.h:
+
+../lib/buffer-lcm.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.6/include/__stddef_max_align_t.h:

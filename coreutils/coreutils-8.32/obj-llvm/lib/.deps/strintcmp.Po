@@ -1,0 +1,13 @@
+lib/strintcmp.o: ../lib/strintcmp.c lib/config.h ../lib/strnumcmp-in.h \
+  ../lib/strnumcmp.h /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/__stddef_max_align_t.h
+
+lib/config.h:
+
+../lib/strnumcmp-in.h:
+
+../lib/strnumcmp.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.6/include/__stddef_max_align_t.h:

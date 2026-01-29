@@ -1,0 +1,12 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: posix_fadvise
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 139028970078208) at runtime/POSIX/fd.c:997 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: getpagesize() at ../src/cat.c:511 22
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: posix_fadvise(0, 0, 0, 2) at ../lib/fadvise.c:34 3
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: vprintf(140225487568896, 139026285723648) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:269 36
+KLEE: WARNING ONCE: calling external: printf(140226427092992, 140235319017472) at ../src/cat.c:92 7

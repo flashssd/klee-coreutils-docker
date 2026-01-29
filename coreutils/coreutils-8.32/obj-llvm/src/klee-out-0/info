@@ -1,0 +1,23 @@
+klee --only-output-states-covering-new --optimize --libc=uclibc --posix-runtime ./echo.bc --sym-args 0 2 4
+PID: 1
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2026-01-21 15:31:00
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2026-01-21 15:31:31
+Elapsed: 00:00:31
+KLEE: done: explored paths = 10678
+KLEE: done: avg. constructs per query = 23
+KLEE: done: total queries = 193
+KLEE: done: valid queries = 12
+KLEE: done: invalid queries = 181
+KLEE: done: query cex = 193
+
+KLEE: done: total instructions = 16994021
+KLEE: done: completed paths = 10678
+KLEE: done: partially completed paths = 0
+KLEE: done: generated tests = 48
