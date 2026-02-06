@@ -1,0 +1,42 @@
+# Git and version control
+.git
+.gitignore
+
+# Python (not copied into image; mounted at runtime)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.env.local
+*.egg-info/
+.eggs/
+requirements.txt
+
+# Large project outputs (mounted at runtime, not needed for build)
+result/
+coreutils/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+.cache/
+
+# Documentation and misc (not needed inside image)
+*.md
+LICENSE
