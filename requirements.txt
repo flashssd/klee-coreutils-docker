@@ -1,0 +1,9 @@
+# API client and proxy support (for symbolic_llm, generate_targeted_inputs, etc.)
+openai>=1.0.0
+httpx[socks]
+
+# Coverage aggregation (used by coverage_aggregate.py when run locally)
+gcovr>=5.0
+
+# Development and testing
+pytest>=7.0
